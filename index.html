@@ -53,5 +53,16 @@
         3er avance para Portafolio B | Apreciación multidisciplinaria de la música
     </footer>
 </body>
-<script src="scripts/script.js"></script>
+<script>
+    $("#content-bar").load('articles/inicio.html');
+
+    $('a#inicio-btn').click(function(){
+        $("#content-bar").load('articles/inicio.html');
+    });
+
+    $('a#jazz-btn').click(function(){
+        $("#content-bar").load('articles/el-jazz.html');
+    });
+
+</script>
 </html>
