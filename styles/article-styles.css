@@ -39,7 +39,7 @@
     object-fit: cover;
 }
 
-.image figcaption {
+.image .figcaption {
     background-color: rgb(24, 24, 24);
     color: white;
     min-height: 60px;
