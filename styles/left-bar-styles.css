@@ -35,6 +35,7 @@ nav li {
 }
 
 nav a {
+    color: black;
     display: block;
     text-decoration: none;
     width: 100%;

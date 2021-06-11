@@ -1,0 +1,12 @@
+/*
+    Article styles
+*/
+
+#content-bar {
+    width: 60%;
+}
+
+.content {
+    padding: 80px 10%;
+    width: 100%;
+}
