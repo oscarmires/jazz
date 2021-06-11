@@ -2,14 +2,15 @@
     Footer styles
 */
 :root {
-    --footer-height: 18px;
+    --footer-height: 25px;
 }
 
 footer {
     height: var(--footer-height);
+    padding: 3px;
     background-color: black;
     color: white;
-    font-family: 'Avenir', sans-serif;
+    font-family: 'Sen', sans-serif;
     font-size: 13px;
     text-align: center;
 }
