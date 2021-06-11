@@ -4,9 +4,33 @@
 
 #content-bar {
     width: 60%;
+    overflow: scroll;
 }
 
 .content {
-    padding: 80px 10%;
+    padding: 80px 10% 40px;
     width: 100%;
+}
+
+.content li {
+    font-family: 'Avenir', sans-serif;
+    list-style-type: square;
+}
+
+.related-media figure {
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    height: 500px;
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.related-media figcaption {
+    color: white;
+    font-family: 'Avenir', sans-serif;
+    margin-top: 10px;
 }
