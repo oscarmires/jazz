@@ -1,0 +1,15 @@
+/*
+    Footer styles
+*/
+:root {
+    --footer-height: 18px;
+}
+
+footer {
+    height: var(--footer-height);
+    background-color: black;
+    color: white;
+    font-family: 'Avenir', sans-serif;
+    font-size: 13px;
+    text-align: center;
+}

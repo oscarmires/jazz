@@ -1,0 +1,44 @@
+/* 
+    Global styles 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+
+/* Reset border-box */
+html {
+    box-sizing: border-box;
+    height: calc(100% - var(--footer-height));
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* layout */
+
+body,
+main {
+    height: 100%;
+}
+
+main {
+    display: flex;
+}
+
+
+/* Theme */
+
+
+h1 {
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+}
+
+h2 {
+
+}
+
