@@ -17,6 +17,19 @@
     list-style-type: square;
 }
 
+.content .quote {
+    font-family: 'Sen', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.content .quote-reference {
+    font-size: 24px;
+    padding: 0 10px;
+}
+
 .related-media .video {
     width: 100%;
     margin: 0;
@@ -29,8 +42,12 @@
     align-items: center;
 }
 
-.related-media p {
+.related-media p.media-caption {
     color: white;
     font-family: 'Avenir', sans-serif;
     margin-top: 10px;
+}
+
+#acerca-de p {
+    margin: 5px 0;
 }
